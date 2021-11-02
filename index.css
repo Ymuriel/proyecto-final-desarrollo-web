@@ -1,0 +1,195 @@
+ol,ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+ #mainMenu {
+	height: 33px;
+    margin: 10px;
+    width: 400px;
+    font-family: sans-serif;
+    background-color: #000;
+    padding-top: 25px;
+}
+ #mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+	
+}
+
+#mainMenu a:hover{
+	background-color: black;
+	color: #fff;
+}
+ #mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+	-webkit-transition: background-color 3s linear;
+	-moz-transition: background-color 3s linear;
+	-ms-transition: background-color 3s linear;
+	-o-transition: background-color 3s linear;
+	transition: background-color 3s linear;
+
+ }
+.claseDiv{
+	color:tomato
+}
+
+body{
+	font-family:arial;
+}
+table{
+	background-color: white;
+	text-align: left;
+	width: 33%;
+	
+}
+
+th {
+	padding: 20px;
+		background-color: #246355;
+		border-bottom: solid 5px black;
+		color: white
+}
+
+tr:nth-child(even){
+	background-color:greenyellow;
+}
+tr:hover td{
+	background-color: #369631;
+	color:white;
+}
+
+	
+	
+
+label { 
+	color: white;
+
+}
+.br-blanco{
+	color: white;
+}
+
+
+
+
+.fuente-1{
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.fuente-2{
+
+	font-family: monospace;
+
+}
+
+nav {
+	background-color: black;
+}
+
+
+
+.lista-1 {
+
+	background-color: #FFF;
+	list-style-type: square;
+}
+
+.padre-flex {
+	display: flex;
+	
+}
+.parent {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+	
+
+
+body {
+
+	font-size: 2rem;
+	font-family: sans-serif;
+	background-color: none;
+}
+
+.flex-container {
+	background-color: #404040;
+	border-radius: 20px;
+	border: solid 4px yellow;
+}
+
+.flex-container > div {
+
+	width: 100px;
+	background-color: blue;
+	color:white;
+	text-align: center;
+}
+.flex-container{
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content : flex-start
+}
+
+.instagram{
+	position: relative;
+	left: 0px;
+	top: 0;
+
+}
+body {
+	background-color: rgb(101, 224, 64);
+	font-family: sans-serif;
+	font-size: 2rem;
+}
+
+.grid-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: turquoise;
+	border-radius:  4px;
+	transition: transform 0.3s ease-in-out;
+	border: solid 1px rgb(255, 255, 255);
+}
+.grid-item:hover{
+	filter: opacity(0.9);
+	transform: scale(1.04);
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+	grid-auto-rows: minmax(200px,auto);
+	gap: 20px;
+	padding: 20px;
+	grid-auto-flow: dense;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
